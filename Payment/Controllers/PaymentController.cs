@@ -14,7 +14,7 @@ namespace Payment.Controllers
             paymentService = service;
         }
 
-        [HttpGet]
+        [HttpPost]
         
         public Microsoft.AspNetCore.Mvc.IActionResult ProcessPayment(ProcessPaymentInput input) 
         {
