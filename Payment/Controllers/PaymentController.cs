@@ -16,7 +16,7 @@ namespace Payment.Controllers
 
         [HttpPost]
         
-        public Microsoft.AspNetCore.Mvc.IActionResult ProcessPayment(ProcessPaymentInput input) 
+        public IActionResult ProcessPayment(ProcessPaymentInput input) 
         {
 
             //PaymentService provider = new PaymentService();
